@@ -1,6 +1,6 @@
 {
 	"name": "@wpcampus/wpcampus-auth",
-	"version": "0.0.0",
+	"version": "0.0.1",
 	"description": "The auth React component used by the WPCampus organization.",
 	"main": "index.js",
 	"scripts": {
