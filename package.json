@@ -1,0 +1,42 @@
+{
+	"name": "@wpcampus/wpcampus-auth",
+	"version": "0.0.0",
+	"description": "The auth React component used by the WPCampus organization.",
+	"main": "index.js",
+	"scripts": {
+		"build": "./node_modules/.bin/babel ./src --out-file index.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/wpcampus/wpcampus-auth.git"
+	},
+	"keywords": [
+		"wpcampus",
+		"oAuth"
+	],
+	"author": "WPCampus",
+	"contributors": [
+		"Rachel Cherry"
+	],
+	"license": "GPL-3.0",
+	"bugs": {
+		"url": "https://github.com/wpcampus/wpcampus-auth/issues"
+	},
+	"homepage": "https://github.com/wpcampus/wpcampus-auth#readme",
+	"devDependencies": {
+		"@babel/cli": "^7.8.4",
+		"@babel/core": "^7.9.6",
+		"@babel/preset-env": "^7.9.6",
+		"@babel/preset-react": "^7.9.4"
+	},
+	"peerDependencies": {
+		"react": "^16.11.0",
+		"react-dom": "^16.11.0"
+	},
+	"dependencies": {
+		"client-oauth2": "^4.3.0",
+		"crypto-js": "^4.0.0",
+		"js-cookie": "^2.2.1",
+		"prop-types": "^15.7.2"
+	}
+}
